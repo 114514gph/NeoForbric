@@ -1,0 +1,6 @@
+package net.neoforbric.api;
+
+public enum LoadPhase {
+    PRE_LAUNCH, CONSTRUCT, REGISTRY, COMMON_SETUP, SIDED_SETUP,
+    IMC_ENQUEUE, IMC_PROCESS, LOAD_COMPLETE, GAME_STARTED
+}

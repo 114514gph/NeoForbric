@@ -1,0 +1,7 @@
+plugins { id 'java-library' }
+description = 'MinecraftForge ecosystem loader'
+dependencies {
+    api project(':neoforbric-loader-api')
+    implementation project(':neoforbric-common')
+    implementation project(':neoforbric-remapper')
+}

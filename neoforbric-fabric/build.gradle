@@ -1,0 +1,10 @@
+plugins { id 'java-library' }
+description = 'Fabric ecosystem loader'
+dependencies {
+    api project(':neoforbric-loader-api')
+    api project(':neoforbric-fabric-api')
+    implementation project(':neoforbric-common')
+    implementation project(':neoforbric-forge')
+    implementation project(':neoforbric-neoforge')
+    implementation project(':neoforbric-remapper')
+}

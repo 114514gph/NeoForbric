@@ -1,0 +1,9 @@
+rootProject.name = 'neoforbric'
+
+include ':neoforbric-common'
+include ':neoforbric-loader-api'
+include ':neoforbric-fabric-api'
+include ':neoforbric-fabric'
+include ':neoforbric-forge'
+include ':neoforbric-neoforge'
+include ':neoforbric-remapper'

@@ -1,0 +1,6 @@
+plugins { id 'java-library' }
+description = 'Cross-version legacy mod runtime bytecode remapping layer'
+dependencies {
+    api project(':neoforbric-loader-api')
+    implementation project(':neoforbric-common')
+}

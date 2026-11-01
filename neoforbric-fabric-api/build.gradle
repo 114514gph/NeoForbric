@@ -1,0 +1,5 @@
+plugins { id 'java-library' }
+description = 'Minimal fabric-api event bridge'
+dependencies {
+    api project(':neoforbric-loader-api')
+}
